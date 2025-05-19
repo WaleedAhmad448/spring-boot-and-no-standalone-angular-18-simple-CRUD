@@ -55,8 +55,9 @@ public class Student implements Serializable{
     @Column(length = 30,nullable = false)
     private String fatherName;
     
-    @Column(columnDefinition = "ENUM('MALE,FEMALE')NOT NULL")
+    @Column(length = 30,nullable = false)
     @Enumerated(EnumType.STRING)
+
     private GenderEnum gender;
 	
 	@Column(length = 10,nullable = false)

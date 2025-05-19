@@ -31,7 +31,7 @@ export class HomeComponent {
   imagePreviewUrl: string | undefined;
 
   genderEnum = Gender;
-  selectedGender: Gender = Gender.Male;
+  selectedGender: Gender = Gender.MALE;
   
 
   student: Student = {
@@ -42,7 +42,7 @@ export class HomeComponent {
     age: 0,
     dateOfBirth: new Date(),
     fatherName: '',
-    gender: Gender.Male,
+    gender: Gender.MALE,
     address: '',
     township: '',
     photo: '',

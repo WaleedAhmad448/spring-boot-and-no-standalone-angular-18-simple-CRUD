@@ -8,6 +8,7 @@ import * as XLSX from 'xlsx';
 import swal from 'sweetalert2'
 import { HomeComponent } from '../home/home/home.component';
 import { DetailsComponent } from '../details/details.component';
+import { Gender } from '../../models/gender.enum';
 
 @Component({
   selector: 'app-list',
@@ -23,9 +24,27 @@ export class ListComponent implements OnInit{
   faClipboard = faUser;
   faPencil = faPencil
 
+  showDialog: boolean = false;
+  selectedFile: File | null = null;
+  selectedGender: Gender = Gender.MALE;
+
   isAddingStudent = false;
 
   localDomain = 'http://localhost:8080';
+ student: Student = {
+    date: new Date(),
+    studentId: 0,
+    studentName: '',
+    studentNrc: '',
+    age: 0,
+    dateOfBirth: new Date(),
+    fatherName: '',
+    gender: Gender.MALE,
+    address: '',
+    township: '',
+    photo: '',
+    mark:[]
+  }
 
  Search: string = '';
   students?: Student[];
@@ -188,11 +207,15 @@ export class ListComponent implements OnInit{
       }
     });
   }
+  onEditStudent(student: Student): void {
+  this.student = { ...student }; 
+  this.selectedGender!= student.gender; 
+  this.showDialog = true; 
+}
   toggleDialog(): void {
-    if (this.detailsComponent) {
-      this.detailsComponent.toggleDialog();
-    }
+    this.showDialog = !this.showDialog;
   }
+
 }
 
 

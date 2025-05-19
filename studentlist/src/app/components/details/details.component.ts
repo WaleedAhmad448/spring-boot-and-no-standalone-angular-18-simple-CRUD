@@ -21,7 +21,7 @@ export class DetailsComponent implements OnInit{
   showDialog: boolean = false;
   showAdditional: boolean = false;
   genderEnum = Gender;
-  selectedGender: Gender = Gender.Male;
+  selectedGender: Gender = Gender.MALE;
   marks: Mark[] = [];
 
 @Input() currentStudent: Student ={
@@ -31,7 +31,7 @@ export class DetailsComponent implements OnInit{
    age: 0,
    dateOfBirth: new Date(),
    fatherName: '',
-   gender: Gender.Male ,
+   gender: Gender.MALE ,
    township: '',
    address: '',
    photo: '',
@@ -51,7 +51,7 @@ export class DetailsComponent implements OnInit{
     age: 0,
     dateOfBirth: new Date(),
     fatherName: '',
-    gender: Gender.Male,
+    gender: Gender.MALE,
     address: '',
     township: '',
     photo: '',
