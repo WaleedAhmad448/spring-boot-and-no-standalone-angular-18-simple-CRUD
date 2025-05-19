@@ -3376,3 +3376,23 @@ java.sql.SQLException: Data truncated for column 'gender' at row 1
 2025-05-20T01:34:04.361+03:00 DEBUG 15788 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
 2025-05-20T01:34:04.363+03:00 DEBUG 15788 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [java.lang.StackOverflowError]
 2025-05-20T01:34:04.365+03:00 DEBUG 15788 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-05-20T01:34:42.284+03:00 DEBUG 15788 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/student/get/all", parameters={}
+2025-05-20T01:34:42.284+03:00 DEBUG 15788 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.students.students.controller.StudentController#getAllStudent()
+2025-05-20T01:34:42.300+03:00 DEBUG 15788 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2025-05-20T01:34:42.302+03:00 DEBUG 15788 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [java.lang.StackOverflowError]
+2025-05-20T01:34:42.303+03:00 DEBUG 15788 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-05-20T01:34:42.327+03:00 DEBUG 15788 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/media/png/1747691832_waleed.jpg", parameters={}
+2025-05-20T01:34:42.327+03:00 DEBUG 15788 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/media/png/1747693269_it3.png", parameters={}
+2025-05-20T01:34:42.327+03:00 DEBUG 15788 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.students.students.controller.StorageServiceController#getPoster(String, String)
+2025-05-20T01:34:42.327+03:00 DEBUG 15788 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.students.students.controller.StorageServiceController#getPoster(String, String)
+2025-05-20T01:34:42.330+03:00 DEBUG 15788 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2025-05-20T01:34:42.330+03:00 DEBUG 15788 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2025-05-20T01:34:42.349+03:00 DEBUG 15788 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{-119, 80, 78, 71, 13, 10, 26, 10, 0, 0, 0, 13, 73, 72, 68, 82, 0, 0, 2, -128, 0, 0, 1, 103, 8, 2, 0 (truncated)...]
+2025-05-20T01:34:42.353+03:00 DEBUG 15788 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-05-20T01:34:42.357+03:00 DEBUG 15788 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{-1, -40, -1, -32, 0, 16, 74, 70, 73, 70, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, -1, -37, 0, 67, 0, 1, 1, 1,  (truncated)...]
+2025-05-20T01:34:42.360+03:00 DEBUG 15788 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-05-20T01:34:42.396+03:00 DEBUG 15788 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/student/get/all", parameters={}
+2025-05-20T01:34:42.396+03:00 DEBUG 15788 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.students.students.controller.StudentController#getAllStudent()
+2025-05-20T01:34:42.407+03:00 DEBUG 15788 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2025-05-20T01:34:42.408+03:00 DEBUG 15788 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [java.lang.StackOverflowError]
+2025-05-20T01:34:42.410+03:00 DEBUG 15788 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
