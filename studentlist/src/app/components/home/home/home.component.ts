@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
-import { Student } from '../../../models/student.model';
-import { Mark } from '../../../models/Mark.model';
-import { StudentService } from '../../../service/student.service';
-import { Gender } from '../../../models/gender.enum';
+import { Student } from '../../../core/models/student.model';
+import { Mark } from '../../../core/models/Mark.model';
+import { StudentService } from '../../../core/service/student.service';
+import { Gender } from '../../../core/models/gender.enum';
 import { Subscription } from 'rxjs';
 import swal from 'sweetalert2';
 import {MatDialogRef} from '@angular/material/dialog';
@@ -18,7 +18,7 @@ export class HomeComponent {
   faArrowLeft = faArrowLeft;
   faDelete =faTimes;
 
-  localDomain = 'http://localhost:8080';
+  // localDomain = 'http://localhost:8080';
 
   showDialog: boolean = true;
 

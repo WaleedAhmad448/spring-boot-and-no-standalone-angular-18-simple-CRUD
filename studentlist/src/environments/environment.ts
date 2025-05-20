@@ -1,5 +1,4 @@
 export const environment = {
   production: false,
-  apiUrl: 'http://localhost:5000/api' // Example API URL for development
+  apiBaseUrl: 'http://localhost:8080' // API للتطوير
 };
-

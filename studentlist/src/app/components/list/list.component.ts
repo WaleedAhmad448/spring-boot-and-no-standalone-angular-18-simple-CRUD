@@ -1,6 +1,6 @@
 import { Component,OnInit,ViewChild } from '@angular/core';
-import { Student } from '../../models/student.model';
-import { StudentService } from '../../service/student.service';
+import { Student } from '../../core/models/student.model';
+import { StudentService } from '../../core/service/student.service';
 import { faTrash, faUser,faPencil } from '@fortawesome/free-solid-svg-icons';
 import { DialogComponent } from '../dialog/dialog.component';
 import { MatDialog } from '@angular/material/dialog';
@@ -8,7 +8,7 @@ import * as XLSX from 'xlsx';
 import swal from 'sweetalert2'
 import { HomeComponent } from '../home/home/home.component';
 import { DetailsComponent } from '../details/details.component';
-import { Gender } from '../../models/gender.enum';
+import { Gender } from '../../core/models/gender.enum';
 
 @Component({
   selector: 'app-list',

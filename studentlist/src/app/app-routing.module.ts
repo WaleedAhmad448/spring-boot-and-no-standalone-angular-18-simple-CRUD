@@ -19,6 +19,8 @@ const routes: Routes = [
     path: 'details/:studentId',
     component: DetailsComponent,
   }
+
+  
 ];
 
 @NgModule({

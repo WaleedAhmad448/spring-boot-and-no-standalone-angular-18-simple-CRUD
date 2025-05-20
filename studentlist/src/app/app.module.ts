@@ -10,6 +10,8 @@ import { ListComponent } from './components/list/list.component';
 import { DialogComponent } from './components/dialog/dialog.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import { DetailsComponent } from './components/details/details.component';
+import { SidebarComponent } from './layout/sidebar/sidebar.component';
+import { NavbarComponent } from './layout/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import { DetailsComponent } from './components/details/details.component';
     ListComponent,
     DialogComponent,
     DetailsComponent,
+    SidebarComponent,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,

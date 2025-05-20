@@ -1,12 +1,12 @@
 import { Component,OnInit,Input } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { Student } from '../../models/student.model';
-import { Mark } from '../../models/Mark.model';
-import { StudentService } from '../../service/student.service';
+import { Student } from '../../core/models/student.model';
+import { Mark } from '../../core/models/Mark.model';
+import { StudentService } from '../../core/service/student.service';
 import { faArrowLeft,faPencil } from '@fortawesome/free-solid-svg-icons';
 import { Router } from '@angular/router';
 import { MatDialog } from '@angular/material/dialog';
-import { Gender } from '../../models/gender.enum';
+import { Gender } from '../../core/models/gender.enum';
 // import { ChangeDetectorRef } from '@angular/core';
 
 @Component({
