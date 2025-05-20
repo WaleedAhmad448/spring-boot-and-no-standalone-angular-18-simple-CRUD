@@ -578,3 +578,58 @@
 2025-05-21T01:57:08.319+03:00 DEBUG 24256 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
 2025-05-21T01:57:08.380+03:00 DEBUG 24256 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{-1, -40, -1, -32, 0, 16, 74, 70, 73, 70, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, -1, -37, 0, 67, 0, 1, 1, 1,  (truncated)...]
 2025-05-21T01:57:08.393+03:00 DEBUG 24256 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-05-21T01:58:25.046+03:00 DEBUG 24256 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/student/get/all", parameters={}
+2025-05-21T01:58:25.049+03:00 DEBUG 24256 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.students.students.controller.StudentController#getAllStudent()
+2025-05-21T01:58:25.084+03:00 DEBUG 24256 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2025-05-21T01:58:25.091+03:00 DEBUG 24256 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [java.lang.StackOverflowError]
+2025-05-21T01:58:25.097+03:00 DEBUG 24256 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-05-21T01:58:26.132+03:00 DEBUG 24256 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/media/png/1747691832_waleed.jpg", parameters={}
+2025-05-21T01:58:26.136+03:00 DEBUG 24256 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.students.students.controller.StorageServiceController#getPoster(String, String)
+2025-05-21T01:58:26.139+03:00 DEBUG 24256 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/media/png/1747693269_it3.png", parameters={}
+2025-05-21T01:58:26.142+03:00 DEBUG 24256 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.students.students.controller.StorageServiceController#getPoster(String, String)
+2025-05-21T01:58:26.142+03:00 DEBUG 24256 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2025-05-21T01:58:26.147+03:00 DEBUG 24256 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2025-05-21T01:58:26.264+03:00 DEBUG 24256 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{-119, 80, 78, 71, 13, 10, 26, 10, 0, 0, 0, 13, 73, 72, 68, 82, 0, 0, 2, -128, 0, 0, 1, 103, 8, 2, 0 (truncated)...]
+2025-05-21T01:58:26.382+03:00 DEBUG 24256 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-05-21T01:58:26.409+03:00 DEBUG 24256 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{-1, -40, -1, -32, 0, 16, 74, 70, 73, 70, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, -1, -37, 0, 67, 0, 1, 1, 1,  (truncated)...]
+2025-05-21T01:58:26.536+03:00 DEBUG 24256 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-05-21T01:58:28.855+03:00 DEBUG 24256 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/media/png/1747750994_it4.jpg", parameters={}
+2025-05-21T01:58:28.857+03:00 DEBUG 24256 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.students.students.controller.StorageServiceController#getPoster(String, String)
+2025-05-21T01:58:28.861+03:00 DEBUG 24256 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2025-05-21T01:58:28.878+03:00 DEBUG 24256 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{-1, -40, -1, -32, 0, 16, 74, 70, 73, 70, 0, 1, 1, 1, 0, 96, 0, 96, 0, 0, -1, -37, 0, 67, 0, 3, 2, 2 (truncated)...]
+2025-05-21T01:58:28.881+03:00 DEBUG 24256 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-05-21T01:58:30.666+03:00 DEBUG 24256 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/student/get/all", parameters={}
+2025-05-21T01:58:30.667+03:00 DEBUG 24256 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.students.students.controller.StudentController#getAllStudent()
+2025-05-21T01:58:30.691+03:00 DEBUG 24256 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2025-05-21T01:58:30.699+03:00 DEBUG 24256 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [java.lang.StackOverflowError]
+2025-05-21T01:58:30.701+03:00 DEBUG 24256 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-05-21T01:58:51.465+03:00 DEBUG 24256 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/student/get/all", parameters={}
+2025-05-21T01:58:51.467+03:00 DEBUG 24256 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.students.students.controller.StudentController#getAllStudent()
+2025-05-21T01:58:51.488+03:00 DEBUG 24256 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2025-05-21T01:58:51.500+03:00 DEBUG 24256 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [java.lang.StackOverflowError]
+2025-05-21T01:58:51.504+03:00 DEBUG 24256 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-05-21T01:58:51.661+03:00 DEBUG 24256 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/media/png/1747691832_waleed.jpg", parameters={}
+2025-05-21T01:58:51.662+03:00 DEBUG 24256 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.students.students.controller.StorageServiceController#getPoster(String, String)
+2025-05-21T01:58:51.662+03:00 DEBUG 24256 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/media/png/1747693269_it3.png", parameters={}
+2025-05-21T01:58:51.664+03:00 DEBUG 24256 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.students.students.controller.StorageServiceController#getPoster(String, String)
+2025-05-21T01:58:51.668+03:00 DEBUG 24256 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/media/png/1747750994_it4.jpg", parameters={}
+2025-05-21T01:58:51.668+03:00 DEBUG 24256 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.students.students.controller.StorageServiceController#getPoster(String, String)
+2025-05-21T01:58:51.672+03:00 DEBUG 24256 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2025-05-21T01:58:51.675+03:00 DEBUG 24256 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2025-05-21T01:58:51.679+03:00 DEBUG 24256 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Found 'Content-Type:image/png' in response
+2025-05-21T01:58:51.707+03:00 DEBUG 24256 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{-1, -40, -1, -32, 0, 16, 74, 70, 73, 70, 0, 1, 1, 1, 0, 96, 0, 96, 0, 0, -1, -37, 0, 67, 0, 3, 2, 2 (truncated)...]
+2025-05-21T01:58:51.716+03:00 DEBUG 24256 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-05-21T01:58:51.836+03:00 DEBUG 24256 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{-119, 80, 78, 71, 13, 10, 26, 10, 0, 0, 0, 13, 73, 72, 68, 82, 0, 0, 2, -128, 0, 0, 1, 103, 8, 2, 0 (truncated)...]
+2025-05-21T01:58:51.849+03:00 DEBUG 24256 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-05-21T01:58:51.886+03:00 DEBUG 24256 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{-1, -40, -1, -32, 0, 16, 74, 70, 73, 70, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, -1, -37, 0, 67, 0, 1, 1, 1,  (truncated)...]
+2025-05-21T01:58:51.913+03:00 DEBUG 24256 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-05-21T01:58:52.016+03:00 DEBUG 24256 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/student/get/all", parameters={}
+2025-05-21T01:58:52.020+03:00 DEBUG 24256 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.students.students.controller.StudentController#getAllStudent()
+2025-05-21T01:58:52.092+03:00 DEBUG 24256 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2025-05-21T01:58:52.114+03:00 DEBUG 24256 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [java.lang.StackOverflowError]
+2025-05-21T01:58:52.120+03:00 DEBUG 24256 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-05-21T01:59:16.959+03:00 DEBUG 24256 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/student/get/all", parameters={}
+2025-05-21T01:59:16.964+03:00 DEBUG 24256 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.students.students.controller.StudentController#getAllStudent()
+2025-05-21T01:59:16.996+03:00 DEBUG 24256 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2025-05-21T01:59:17.001+03:00 DEBUG 24256 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [java.lang.StackOverflowError]
+2025-05-21T01:59:17.006+03:00 DEBUG 24256 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
