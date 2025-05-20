@@ -4,7 +4,8 @@
   justify-content: center;
   min-height: 100vh; 
 }
-.mr{
+.mr-4{
   margin-right: 40px;
+  margin-left: 250px;
 
 }
