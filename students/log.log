@@ -698,3 +698,8 @@
 2025-05-21T02:01:41.949+03:00 DEBUG 24256 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
 2025-05-21T02:01:41.964+03:00 DEBUG 24256 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{-1, -40, -1, -32, 0, 16, 74, 70, 73, 70, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, -1, -37, 0, 67, 0, 1, 1, 1,  (truncated)...]
 2025-05-21T02:01:42.005+03:00 DEBUG 24256 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-05-21T02:01:44.439+03:00 DEBUG 24256 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/student/get/all", parameters={}
+2025-05-21T02:01:44.440+03:00 DEBUG 24256 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.students.students.controller.StudentController#getAllStudent()
+2025-05-21T02:01:44.466+03:00 DEBUG 24256 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2025-05-21T02:01:44.475+03:00 DEBUG 24256 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [java.lang.StackOverflowError]
+2025-05-21T02:01:44.477+03:00 DEBUG 24256 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
