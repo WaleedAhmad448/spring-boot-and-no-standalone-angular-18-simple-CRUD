@@ -3,13 +3,9 @@ package com.students.students.serviceImpl;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.time.Instant;
 import java.time.LocalDate;
-import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
-import java.util.Date;
-import java.util.Iterator;
 import java.util.List;
 
 import org.apache.poi.ss.usermodel.Cell;
@@ -30,8 +26,6 @@ import com.students.students.genderEnum.GenderEnum;
 import com.students.students.repository.MarkRepository;
 import com.students.students.repository.StudentRepository;
 import com.students.students.service.StudentService;
-
-import jakarta.servlet.http.HttpServletResponse;
 
 @Service
 public class StudentServiceImpl implements StudentService{

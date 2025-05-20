@@ -10,8 +10,6 @@ import org.springframework.web.multipart.MultipartFile;
 
 import com.students.students.entity.Student;
 
-import jakarta.servlet.http.HttpServletResponse;
-
 public interface StudentService {
 	
 	Student createStudent(Student student);

@@ -2,7 +2,6 @@ package com.students.students.entity;
 
 import java.io.Serializable;
 import java.time.LocalDate;
-import java.util.ArrayList;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
